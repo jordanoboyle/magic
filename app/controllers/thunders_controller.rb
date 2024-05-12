@@ -8,4 +8,8 @@ class ThundersController < ApplicationController
       move4: "Iron Tail"
     }
   end
+
+  def try_this_image
+    render html: '<html><img src='img1.jpg'/></html>
+  end
 end

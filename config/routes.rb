@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get "/electric", controller: "thunders", action:  "pikachu" 
 
+  get "/spaceman" => "thunders#try_this_image"
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
